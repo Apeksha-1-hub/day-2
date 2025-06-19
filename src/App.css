@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+    font-family:"urbanist";
+
+}
+
+p,li,a, button{
+ font-size: 1.7rem;
+ letter-spacing: .1rem;
+}
+a{
+    color: #000;
+    &:hover{
+        color: #8b2d2d;
+        text-decoration: underline;
+    }
+
+}
+header{
+    height: 10rem;
+    box-shadow: rgb(39, 37, 37) 0px 10px 10px -10px;
+    background-color: bisque;
+    width:100%;
+
+}
+.container{
+ max-width: 132rem;
+ margin:auto;
+ height: 10rem;
+
+}
+.grid{
+  display:grid;
+}
+
+.navbar-grid{
+    grid-template-columns: .5fr 1fr ;
+    align-items: center;
+    height: 10rem;
+}
+
+nav ul{
+    display:flex;
+    justify-content: flex-end;
+    gap:4.2rem;
+
+}
